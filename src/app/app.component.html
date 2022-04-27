@@ -1,0 +1,8 @@
+
+<app-header *ngIf="_helper.loggedInStatus == 'true'"></app-header>
+<div class="main">
+  <router-outlet></router-outlet>
+</div>
+<app-footer *ngIf="_helper.loggedInStatus == 'true'"></app-footer>
+
+
